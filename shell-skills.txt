@@ -1,0 +1,2 @@
+chmod +x `ls |grep -v acd_func.sh`
+chmod +x !(acd_func.sh)
