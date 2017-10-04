@@ -1,2 +1,4 @@
+# Below three are the same:
 chmod +x `ls |grep -v acd_func.sh`
+ls |grep -v acd_func.sh |xargs chmod +x
 chmod +x !(acd_func.sh)
